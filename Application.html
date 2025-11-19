@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ใบสมัครนักเรียน/นักศึกษา 2569</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero small">
+    <div class="hero-content">
+        <h1>แบบฟอร์มใบสมัคร</h1>
+        <p>กรุณากรอกข้อมูลตามความจริง</p>
+    </div>
+</header>
+
+<section class="section">
+    <div class="form-container">
+        <form action="#" method="POST" enctype="multipart/form-data">
+
+            <label>ชื่อ - นามสกุล</label>
+            <input type="text" name="fullname" required>
+
+            <label>อายุ</label>
+            <input type="number" name="age" required>
+
+            <label>ระดับการศึกษา</label>
+            <select name="education" required>
+                <option value="highschool">มัธยมปลาย</option>
+                <option value="voc">ปวช./ปวส.</option>
+                <option value="bachelor">ปริญญาตรี</option>
+            </select>
+
+            <label>อีเมล</label>
+            <input type="email" name="email" required>
+
+            <label>เบอร์โทรศัพท์</label>
+            <input type="text" name="phone" required>
+
+            <label>อัปโหลดเอกสาร</label>
+            <input type="file" name="document" required>
+
+            <button class="btn-primary" type="submit">ยืนยันการสมัคร</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2569 [ชื่อสถานศึกษา] — All Rights Reserved
+</footer>
+
+</body>
+</html>

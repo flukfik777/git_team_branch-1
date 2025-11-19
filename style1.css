@@ -1,0 +1,91 @@
+/* การจัดรูปแบบพื้นฐาน */
+body {
+    font-family: 'Arial', sans-serif; /* เปลี่ยนฟอนต์ได้ตามต้องการ */
+    background-color: #f4f7f6; /* สีพื้นหลังอ่อน ๆ */
+    display: flex;
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* กล่อง Login */
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* เงาเพื่อให้ดูมีมิติ */
+    width: 100%;
+    max-width: 400px; /* จำกัดความกว้าง */
+    text-align: center;
+}
+
+/* ส่วนหัว (Header) */
+.header h1 {
+    color: #1fbd5b; /* สีน้ำเงินเข้ม */
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.header p {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+}
+
+/* กลุ่ม Input */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* ทำให้ padding ไม่เพิ่มขนาดรวมของ input */
+    font-size: 1em;
+}
+
+/* ปุ่ม Login */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1fbd5b; /* สีน้ำเงินหลัก */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #1f944c; /* สีเข้มขึ้นเมื่อเมาส์ชี้ */
+}
+
+/* ลิงก์ด้านล่าง */
+.links {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.links a {
+    color: #1fbd5b;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

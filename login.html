@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เข้าสู่ระบบสมัครเรียน ปี 2569</title>
+    <link rel="stylesheet" href="style1.css"> </head>
+<body>
+    <div class="login-container">
+        <div class="header">
+            <h1>ระบบรับสมัครนักเรียน ปีการศึกษา 2569</h1>
+            <p>โปรดเข้าสู่ระบบเพื่อดำเนินการสมัคร</p>
+        </div>
+        
+        <form action="/login" method="POST" class="login-form">
+            <div class="input-group">
+                <label for="username">รหัสนักเรียน / อีเมล:</label>
+                <input type="text" id="username" name="username" required 
+                       placeholder="ป้อนรหัสนักเรียน หรือ อีเมล">
+            </div>
+            
+            <div class="input-group">
+                <label for="password">รหัสผ่าน:</label>
+                <input type="password" id="password" name="password" required 
+                       placeholder="ป้อนรหัสผ่าน">
+            </div>
+            
+            <button type="submit" class="login-button">เข้าสู่ระบบ</button>
+            
+            <div class="links">
+                <a href="#">ลืมรหัสผ่าน?</a> | 
+                <a href="#">สมัครสมาชิกใหม่</a>
+                <a href="contact.html">ติดต่อสอบถาม</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

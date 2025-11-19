@@ -1,0 +1,76 @@
+/* --- ส่วนเพิ่มเติมสำหรับหน้า Contact --- */
+
+.contact-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* ขยายความกว้างกว่าหน้า Login เล็กน้อย */
+    text-align: center;
+}
+
+.contact-container .header h1 {
+    color: #004d99;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+.contact-container .header p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap; /* ให้รายการข้อมูลขึ้นบรรทัดใหม่ได้เมื่อหน้าจอแคบ */
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+.info-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    border-left: 5px solid #007bff; /* แถบสีน้ำเงินด้านข้าง */
+    flex: 1 1 250px; /* กำหนดให้แต่ละกล่องกว้างประมาณ 250px และยืดหยุ่นได้ */
+}
+
+.info-item h3 {
+    margin-top: 5px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.info-item p {
+    margin: 5px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+.info-item .description {
+    font-size: 0.9em;
+    color: #888;
+    font-weight: normal;
+}
+
+.info-item .icon {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.back-link {
+    margin-top: 30px;
+}
+
+.back-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
